@@ -1,0 +1,73 @@
+  /* Estilo del body en modo claro */
+
+  body  {
+    margin: auto;
+    margin-top: 150px;
+    width: 300px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: rgb(19, 14, 83);
+    /* transition: background-color 0.3s, color 0.3s; */
+}
+input[type="text"] {
+  padding: 10px; /* Espaciado interno */
+  border: 1px solid #ccc; /* Borde con color gris */
+  border-radius: 5px; /* Esquinas redondeadas */
+  font-size: 16px; /* Tamaño de fuente */
+}
+
+/* Estilos para el botón */
+#Chiste {
+  padding: 10px 20px; /* Espaciado interno en vertical y horizontal */
+  background-color: #262a2e; /* Color de fondo */
+  color: #fff; /* Color del texto */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Esquinas redondeadas */
+  font-size: 16px; /* Tamaño de fuente */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+/* Estilo al pasar el cursor sobre el botón */
+button:hover {
+  background-color: #24272b; /* Cambia el color de fondo al pasar el cursor */
+}
+  /* Estilo boton en modo claro */
+
+  #BotonModo {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(30, 30, 35);
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+/* Estilo del body en modo oscuro */
+
+  .dark-mode {
+    background-color: rgb(30, 30, 35);
+    color: white;
+  }
+
+
+/* Estilo del boton en modo oscuro */
+
+  .dark-mode #BotonModo {
+    background-color: white;
+    color: black;
+  }
+  .dark-mode #Chiste {
+    background-color: white;
+    color: black;
+    
+  }
+  .dark-mode#Chiste:hover {
+    background-color: #24272b; /* Cambia el color de fondo al pasar el cursor */
+  }
+  .dark-mode input[type="text"] {
+    background-color: #161111; /* Cambia el color de fondo a gris claro */
+    color: white;
+  }
